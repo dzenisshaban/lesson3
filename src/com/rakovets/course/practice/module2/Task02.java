@@ -14,6 +14,7 @@ public class Task02 {
 		// Переменные, которые можно изменять для проверки различных вариантов входных параметров
 		int cargo = 1;
 		int carryingCapacity = 2;
+		System.out.println(carryingCapacity % cargo  );
 
 		// Код необходимый для тестирования, не изменять
 		cargo = (args.length == 0) ? cargo : Integer.valueOf(args[0]);
